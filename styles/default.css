@@ -5,7 +5,7 @@ html, body {
 .navbar {
 	padding-top: 30px;
 	padding-bottom: 15px;
-	
+
 	width: auto 0;
 }
 
@@ -39,8 +39,9 @@ html, body {
 
 .motto {
 	color: white;
-
-	
+    font-family: Baskerville;
+    font-weight: 700;
+    font-size: 70px;
 }
 
 .textLeft {
@@ -187,7 +188,7 @@ just for appearance; change whatever you want
 }
 
 .slideTitle {
-	
+
 	text-align: right;
 }
 
@@ -234,7 +235,7 @@ hr {
 #purposeRowOne {
 	padding-top: 200px;
 	justify-content: center;
-	
+
 
 }
 
