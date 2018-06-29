@@ -99,6 +99,8 @@ blockquote {
 	border-bottom: 4px solid #F97156;
 	display: inline-block;
 	color: black;
+    font-family: Baskerville;
+    font-style: italic;
 }
 
 .redUnderLine a {
