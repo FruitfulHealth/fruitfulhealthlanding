@@ -179,11 +179,11 @@ just for appearance; change whatever you want
 
 .videoSlideSection {
 	background-color: #F6C824;
-	height: 400px;
+	height: 600px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+
 }
 
 .slideTitle {
