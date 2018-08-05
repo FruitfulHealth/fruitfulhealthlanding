@@ -23,6 +23,7 @@ html, body {
 	background-color: rgba(246, 200, 36, 1);
 	height: 600px;
 	text-align: center;
+    width: auto;
 
 
 }
@@ -38,8 +39,8 @@ html, body {
 	text-align: center;
 	height: 600px;
 	background-color: rgba(249, 113, 86, 1);
-	padding-left: 50px;
-	padding-right: 50px;
+    width: auto;
+    flex: auto;
 
 }
 
@@ -98,7 +99,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0);
 	text-align: center;
 	padding-bottom: 75px;
-    padding-left: 195px;
+    padding-left: 110px;
 }
 
 .ourMission {
@@ -272,6 +273,7 @@ just for appearance; change whatever you want
     border-bottom: 1px solid rgba(59, 70, 85, 1);
     height: 0 !important;
     min-height: 0 !important;
+    width: auto;
 }
 
 .col-12 {
