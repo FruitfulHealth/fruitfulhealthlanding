@@ -289,13 +289,13 @@ just for appearance; change whatever you want
 	text-align: center;
 }
 
-#purposeRowOne {
+.purposeRowOne {
 	padding-top: 150px;
     padding-left: 100px;
     background-color: #f2fcfc;
 }
 
-#purposeRowTwo {
+.purposeRowTwo {
     padding-top: 75px;
 	display: flex;
 	align-items: center;
@@ -303,7 +303,7 @@ just for appearance; change whatever you want
     background-color: #f2fcfc;
 }
 
-#purposeRowThree {
+.purposeRowThree {
 	background-color: #FCEBE8;
 	height: 600px;
 	font-size: 35px;
@@ -314,7 +314,7 @@ just for appearance; change whatever you want
 	padding-top: auto;
 }
 
-#purposeRowFour {
+.purposeRowFour {
 	background-color: #F2FCFC;
 	height: 300px;
 	display: flex;
