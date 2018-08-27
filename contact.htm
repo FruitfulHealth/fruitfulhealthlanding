@@ -14,13 +14,13 @@
   <body>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
-    	<a class="navbar-brand" href="http://www.fruitfulhealth.org"> <img src="images/fruitfulHealth.png" style="width:206px; height:65px; object-fit:cover; position:relative;"> </a>
+    	<a class="navbar-brand" href="index.htm"> <img alt="Fruitful Health" src="images/fruitfulHealth.png" style="width:206px; height:65px; object-fit:cover; position:relative;"> </a>
 	    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
   			</button>
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   			<ul class="nav navbar-nav ml-auto">
-  				<li class="nav-item"><a class="nav-link" href="http://www.fruitfulhealth.org">Home </a></li>
+  				<li class="nav-item"><a class="nav-link" href="index.htm">Home </a></li>
   			    <li class="nav-item"><a class="nav-link" href="purpose.htm">Purpose </a></li>
   				<li class="nav-item"><a class="nav-link" href="app.htm">App </a></li>
   				<li class="nav-item"><a class="nav-link" href="team.htm">Our Team </a></li>
@@ -28,10 +28,80 @@
   			</ul>
   		</div>
   	</nav>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+		<p align="left" style="padding-top: 150px; padding-left: 35px; position:absolute; color:#24D7DE; font-size: 60px; font-weight: 620; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'">Contact Us</p><br>
+		<p align="left" style="padding-top: 220px; color:#9DEAED; padding-left: 35px; font-size: 20px; font-weight: 600; font-style: italic; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'">We would love to hear from you!</p>
+		</div>
+		
+		<form action="contact.php" method="post">
+	
+			<input type="text" name="lastname" placeholder="Last Name*" style="border:none; background-color:rgba(250, 234, 227, 1);">
+			
+			<input type="text" name="firstname" placeholder="First Name" style="border:none; background-color:rgba(250, 234, 227, 1);"><br><br>
+			
+			<input name="email" type="email" placeholder="E-mail" style="border:none; background-color:rgba(250, 234, 227, 1); width: 340px;"><br><br>
+			
+			<input type="text" name="phonenumber" placeholder="Phone No." style="border:none; background-color:rgba(250, 234, 227, 1); width: 340px;"><br><br>
+			
+			<textarea name="message" placeholder="Leave your message here" style="border:none; background-color:rgba(250, 234, 227, 1); width: 340px;"></textarea><br>
 
+			<input id="submit" name="submit" type="submit" value="Submit" style="border:none; background-color:rgba(250, 234, 227, 1);"><br><br>
+        
+		</form>
+	 
+     <footer class="footer row">
+	 	<div class="col-md-4">
+	 		<a href="index.htm"><img alt="Fruitful Health" src="images\fruitfulHealthFooter.png" style="width: 259px; height: 94px; object-fit: cover;"></a>
+	 	</div>
+	 	<div class="col-md-4">
+	 		<p style="font-family: Baskerville; color: #00cece" align="left">Stay In Touch<br>
+				<a href="mailto: fruitfulhealthteam@gmail.com" style="color: #FFFFFF; font-style: italic; font-family: Georgia;">fruitfulhealthteam@gmail.com</a><br><br>
+				<a href="https://www.facebook.com/FruitfulHealthApp/"><img alt="Facebook" src="images\facebook.png" style="width: 35px; height: 35px; padding: 1% 1%;"></a>
+				<a href="https://www.instagram.com/fruitfulhealthapp/?hl=en"><img alt="Instagram" src="images\instagram.png" style="width: 35px; height: 35px; padding: 1% 1%;"></a>
+				<a href="https://twitter.com/FruitfulHealthT"><img alt="Twitter" src="images\twitter.png" style="width: 35px; height: 35px; padding: 1%;"></a>
+	 		</p>
+	 	</div>
+	 	<div class="col-md-4">
+	 		<p style="font-family: Baskerville; color: #00cece" align="left">Our App<br></p>
+            <div class="row">
+				<div class="separator col-5">
+				<img alt="Coming Soon On The App Store" src="images/appStore.png" style="width: 193px; height: 69px; object-fit: cover;">
+				</div>
+				<div class="separator col-5">
+				<img alt="Evidence Driven" src="images/evidencedriven.png" style="width:80px; height:15px;"><br>
+				<img alt="HIPPA Compliant" src="images/hippacompliant.png" style="width:80px; height:15px;"><br>
+				<img alt="Modular Design"  src="images/modulardesign.png" style="width:80px; height:15px;">
+				</div>
+            </div>
+	 	</div>
+	 	<div class="col-12">
+			<div style="left: 0px; right: 0px; width: 1280px;" class="hr">     
+				<div class="hrline">
+				</div>
+			</div><br>
+			<div style="color: #C2CCCC; font-family:Arial">&copy; Fruitful Health 2018
+			</div>
+        </div>
+     </footer>
+ 	 </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+    	var slides = document.querySelectorAll('#slides .slide');
+		var currentSlide = 0;
+		var slideInterval = setInterval(nextSlide,20000);
 
+		function nextSlide() {
+		    slides[currentSlide].className = 'slide';
+		    currentSlide = (currentSlide+1)%slides.length;
+		    slides[currentSlide].className = 'slide showing';
+		}
 
-  	 </div>
-
+    </script>
  </body>
 </html>
