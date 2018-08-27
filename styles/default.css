@@ -1,11 +1,11 @@
 html, body {
-	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar {
 	padding-top: 30px;
 	padding-bottom: 15px;
-
 	width: auto 0;
 }
 
@@ -152,6 +152,13 @@ blockquote {
     font-style: italic;
 }
 
+.redUnderLineNI {
+	border-bottom: 4px solid #F97156;
+	display: inline-block;
+	color: black;
+    font-family: Baskerville;
+}
+
 .redUnderLine a {
 	color: inherit;
 	text-decoration: none;
@@ -180,7 +187,6 @@ blockquote {
 	justify-content: center;
 	align-items: center;
 }
-
 
 /*
 essential styles:
@@ -315,9 +321,13 @@ just for appearance; change whatever you want
 }
 
 .purposeRowThree {
-	padding-top: 100px;
+	padding-top: auto;
     padding-left: 100px;
-	background-color: #FCEBE8;
+	font-size: 35px;
+	margin: 0;
+	width: 50%;
+	text-align: center;
+	background-color: #FCEBE8;	
 }
 
 .purposeRowFour {
