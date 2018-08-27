@@ -24,10 +24,14 @@ html, body {
 	height: 600px;
 	text-align: center;
     width: auto;
-
-
 }
 
+.leftboxPurpose {
+	padding-top: 200px;
+	height: 600px;
+	text-align: center;
+    width: auto;
+}
 .separator {
     height: 100px;
     text-align: center;
@@ -41,7 +45,14 @@ html, body {
 	background-color: rgba(249, 113, 86, 1);
     width: auto;
     flex: auto;
+}
 
+.rightboxPurpose {
+	padding-top: 200px;
+	text-align: center;
+	height: 600px;
+    width: auto;
+    flex: auto;
 }
 
 .motto {
@@ -304,19 +315,14 @@ just for appearance; change whatever you want
 }
 
 .purposeRowThree {
+	padding-top: 100px;
+    padding-left: 100px;
 	background-color: #FCEBE8;
-	height: 600px;
-	font-size: 35px;
-	margin: auto 0;
-	width: 50%;
-	text-align: center;
-	position: relative;
-	padding-top: auto;
 }
 
 .purposeRowFour {
 	background-color: #F2FCFC;
-	height: 300px;
+	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
