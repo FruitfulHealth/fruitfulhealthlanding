@@ -486,6 +486,61 @@ just for appearance; change whatever you want
 	padding-top:100px;
     border-radius: 25%;
 }
+.picErin{
+	width:250px;
+	height:250px;
+	background: url("../images/team/erin.jpg");
+    border-radius: 25%;
+
+}
+.picErin:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#F29B23;
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:60px;
+    border-radius: 25%;
+}
+.picHajar{
+	width:250px;
+	height:250px;
+	background: url("../images/team/hajar.png");
+    border-radius: 25%;
+}
+.picHajar:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#F29B23;
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:60px;
+    border-radius: 25%;
+}
+.picAlex{
+	width:250px;
+	height:250px;
+	background: url("../images/team/alex.png");
+	border-radius: 25%;
+}
+.picAlex:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#F29B23;
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:60px;
+    border-radius: 25%;
+}
 .purposeRowTwo {
     padding-top: 30px;
 	display: flex;
