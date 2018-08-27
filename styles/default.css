@@ -311,7 +311,181 @@ just for appearance; change whatever you want
     padding-left: 100px;
     background-color: #f2fcfc;
 }
+.picJin{
+	width:340px;
+	height:340px;
+	position:absolute;
+	background: url("../images/team/jinsol.png");
+	border-radius: 25%;
+}
+.picJin:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#FFF;
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+	border-radius: 25%;
+}
+.picJag{
+	width:340px;
+	height:340px;
+	background: url("../images/team/jagveer.jpg");
+	border-radius: 25%;
+}
+.picJag:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#FFF;
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+	border-radius: 25%;
+}
+.picPooja{
+	width:220px;
+	height:280px;
+	background: url("../images/team/pooja.jpg");
+	border-radius: 25%;
+}
+.picPooja:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:rgba(246, 200, 36, 1);
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+	border-radius: 25%;
+	
+}
 
+.picSara{
+	width:220px;
+	height:280px;
+	background: url("../images/team/sara.jpg");
+	border-radius: 25%;
+}
+.picSara:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color: rgba(246, 200, 36, 1);
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+	border-radius: 25%;
+}
+.text{
+	width:100%;
+	height:100%;
+	background:#000000;
+	opacity:0;
+}
+.picPhyl{
+	width:220px;
+	height:280px;
+	background: url("../images/team/phylicia.jpg");
+    border-radius: 25%;
+
+}
+.picPhyl:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:rgba(246, 200, 36, 1);
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+    border-radius: 25%;
+}
+.picGeorge{
+	width:220px;
+	height:280px;
+	background: url("../images/team/george.jpeg");
+        border-radius: 25%;
+
+}
+.picGeorge:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:rgba(246, 200, 36, 1);
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+    border-radius: 25%;
+}
+.picGabby{
+	width:200px;
+	height:250px;
+	background: url("../images/team/gabby.jpg");
+    border-radius: 25%;
+
+}
+.picGabby:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color: #24D7DE;
+	font-size:19px;
+	font-weight:650;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:25px;
+    border-radius: 25%;
+}
+.picJun{
+	width:200px;
+	height:250px;
+	background: url("../images/team/jun.jpg");
+    border-radius: 25%;
+
+}
+.picJun:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#24D7DE;
+	font-size:19px;
+	font-weight:650;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:35px;
+    border-radius: 25%;
+}
+.picEd{
+	width:200px;
+	height:250px;
+	background: url("../images/team/edmund.jpg");
+    border-radius: 25%;
+
+}
+.picEd:hover .text
+{
+	opacity:0.8;
+	text-align:center;
+	color:#24D7DE;
+	font-size:20px;
+	font-weight:700;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	padding:30px;
+	padding-top:100px;
+    border-radius: 25%;
+}
 .purposeRowTwo {
     padding-top: 30px;
 	display: flex;
