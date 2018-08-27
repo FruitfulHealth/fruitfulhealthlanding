@@ -313,7 +313,7 @@ just for appearance; change whatever you want
 }
 
 .purposeRowTwo {
-    padding-top: 75px;
+    padding-top: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -325,8 +325,6 @@ just for appearance; change whatever you want
     padding-left: 100px;
 	font-size: 35px;
 	margin: 0;
-	width: 50%;
-	text-align: center;
 	background-color: #FCEBE8;	
 }
 
