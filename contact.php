@@ -1,10 +1,12 @@
 <?php
-$field_name = $_POST['cf_name'];
-$field_email = $_POST['cf_email'];
-$field_message = $_POST['cf_message'];
+$field_firstnamename = $_POST['firstname'];
+$field_lastname = $_POST['lastname'];
+$field_email = $_POST['email'];
+$field_message = $_POST['message'];
+$field_phonenumber = $_POST['phonenumber'];
 
 $mail_to = 'gabspace11@gmail.com';
-$subject = 'Message from a site visitor '.$field_name;
+$subject = 'Message from Fruitful Health website visitor '.$field_name.'.';
 
 $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
