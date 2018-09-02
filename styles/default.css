@@ -72,7 +72,6 @@ p{
 
 .fruitfulFriends{
 	display: flex;
-	padding: 0% 0% 5% 0%;
 	font-weight: 700;
     justify-content: center;
 	color: white;
@@ -80,12 +79,15 @@ p{
 	text-align: center;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	line-height: normal;
+	padding: 20% 0% 20% 0%;
 }
 
 .fruitfulFriendsIMG{
-	width: 55%;
-	height: 70%;
-	justify-content: center; 
+	display: flex;
+	width: 95%;
+	height: 100%;
+	align: center; 
+	padding: 5% 0% 0% 6%;
 }
 /* For Patients & Doctors Page */
 .dpCenter{
@@ -100,6 +102,21 @@ p{
 .addPad{
 	padding: 15% 0% 0% 0%;
 }
+
+.missionProto{
+	display: flex;
+	padding: 11% 0% 5% 0%;
+    justify-content: center;
+	color: #f97156;
+	background-color: #f2fcfc;
+	font-size: 1.3em;
+	font-weight: 550;
+	font-family: Constantia, Georgia;
+	text-align: center;
+	line-height: normal;
+	
+}
+
 .pillbottle{
 	padding-top: 5%;
 	width: 100%;
