@@ -87,9 +87,30 @@ p{
 	height: 70%;
 	justify-content: center; 
 }
-/* For Patients Page */
-.patientCenter{
+/* For Patients & Doctors Page */
+.dpCenter{
 	display: flex;
+    justify-content: center;
+	color: #f97156;
+	background-color: #f2fcfc;
+	padding-bottom: 10%;	
+}
+
+/* For Product Page */
+.addPad{
+	padding: 15% 0% 0% 0%;
+}
+.pillbottle{
+	padding-top: 5%;
+	width: 100%;
+	height: 100%;
+	border: #F29B23;
+	border-width: medium;
+}
+
+.currentProto1{
+	display: flex;
+	padding-top: 5%;
     justify-content: center;
 	color: #f97156;
 	background-color: #f2fcfc;
@@ -97,11 +118,13 @@ p{
 	font-weight: 550;
 	font-family: Constantia, Georgia;
 	text-align: center;
-	line-height: normal;	
+	line-height: normal;
+	
 }
-/* For Doctors Page */
-.doctorCenter{
+
+.currentProto2{
 	display: flex;
+	padding-bottom: 5%;
     justify-content: center;
 	color: #f97156;
 	background-color: #f2fcfc;
@@ -109,8 +132,11 @@ p{
 	font-weight: 550;
 	font-family: Constantia, Georgia;
 	text-align: center;
-	line-height: normal;	
+	line-height: normal;
+	
 }
+
+
 /* For Purpose Page */
 .purposeRowOne {
 	padding-top: 150px;
@@ -148,6 +174,19 @@ p{
 	padding-left: 20px;
 }
 
+
+.labels{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 50px; 
+	font-weight: 550; 
+}
+.label{
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+}
 .center-text {
 	text-align: center;
 }
@@ -262,34 +301,6 @@ p{
 
 .redUnderLine a:hover {
 	color: #F97156;
-}
-
-/* Footer, HR Line, Columns*/
-.footer {
-	background-color: #101B2B;
-	color: #ffffff;
-	padding-top: 75px;
-	padding-bottom: 25px;
-}
-
-.hr {
-    border-bottom: 1px solid rgba(59, 70, 85, 1);
-    height: 0 !important;
-    min-height: 0 !important;
-    width: auto;
-}
-
-.col-12 {
-	padding: 20;
-    text-align: center;
-}
-
-.col-md-3 {
-	margin-right: 40px;
-}
-
-.col-md-4 {
-	text-align: center;
 }
 
 
@@ -524,3 +535,50 @@ p{
 	padding-top:100px;
     border-radius: 25%;
 }
+
+/* Footer, HR Line, Columns*/
+.footer {
+	background-color: #101B2B;
+	color: #ffffff;
+	padding-top: 75px;
+	padding-bottom: 25px;
+}
+
+.ourApp{
+	display: flex;
+	flex-direction: column;
+	font-family: Baskerville;
+	font-size: 40px;
+	color: #00cece;
+	justify-content: flex-start;
+}
+
+.hippacompliant {
+	padding-left: 15%;
+	margin-left: 21%;
+}
+
+.comingsoon {
+	padding-right: 55%;
+}
+.hr {
+    border-bottom: 1px solid rgba(59, 70, 85, 1);
+    height: 0 !important;
+    min-height: 0 !important;
+    width: auto;
+}
+
+.col-12 {
+	padding: 20;
+    text-align: center;
+}
+
+.col-md-3 {
+	margin-right: 40px;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+
