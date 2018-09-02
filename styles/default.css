@@ -151,6 +151,23 @@ p{
     background-color: #f2fcfc;
 }
 
+.adhereData {
+    padding-top: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background-color: #f2fcfc;
+}
+
+.nonAdhere{
+    padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: #FCEBE8;
+}
+
 .purposeRowThree {
 	padding-top: auto;
     padding-left: 100px;
@@ -175,14 +192,14 @@ p{
 }
 
 
-.labels{
+.nextTo{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	font-size: 50px; 
 	font-weight: 550; 
 }
-.label{
+.onTop{
 	display: flex;
 	flex-direction: column;	
 	justify-content: center;
