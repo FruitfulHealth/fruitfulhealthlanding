@@ -75,11 +75,11 @@ p{
 	font-weight: 700;
     justify-content: center;
 	color: white;
-	background-color: #EB705A;
+	background-color: #F6C824;
 	text-align: center;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	line-height: normal;
-	padding: 20% 0% 20% 0%;
+	padding: 10% 0% 20% 0%;
 }
 
 .fruitfulFriendsIMG{
@@ -94,8 +94,22 @@ p{
 	display: flex;
     justify-content: center;
 	color: #f97156;
-	background-color: #f2fcfc;
-	padding-bottom: 10%;	
+	background-color: white;
+	padding-bottom: 20%;	
+}
+
+.dpBackCenter{
+	display: flex;
+	padding: 15% 0% 0% 0%;
+    justify-content: center;
+	color: #f97156;
+	background-color: white;
+	font-size: 1.3em;
+	font-weight: 550;
+	font-family: Constantia, Georgia;
+	text-align: center;
+	line-height: normal;
+	
 }
 
 /* For Product Page */
@@ -104,15 +118,13 @@ p{
 }
 
 .missionProto{
-	display: flex;
 	padding: 11% 0% 5% 0%;
-    justify-content: center;
 	color: #f97156;
 	background-color: #f2fcfc;
 	font-size: 1.3em;
-	font-weight: 550;
+	font-weight: 500;
 	font-family: Constantia, Georgia;
-	text-align: center;
+	text-align: left;
 	line-height: normal;
 	
 }
@@ -125,24 +137,8 @@ p{
 	border-width: medium;
 }
 
-.currentProto1{
-	display: flex;
-	padding-top: 5%;
-    justify-content: center;
-	color: #f97156;
-	background-color: #f2fcfc;
-	font-size: 1.3em;
-	font-weight: 550;
-	font-family: Constantia, Georgia;
-	text-align: center;
-	line-height: normal;
-	
-}
-
 .currentProto2{
-	display: flex;
 	padding-bottom: 5%;
-    justify-content: center;
 	color: #f97156;
 	background-color: #f2fcfc;
 	font-size: 1.3em;
@@ -614,5 +610,3 @@ p{
 .col-md-4 {
 	text-align: center;
 }
-
-
